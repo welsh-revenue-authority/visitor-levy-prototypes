@@ -1,0 +1,49 @@
+{
+  "appText": {
+    "langButton": "English",
+    "toolbar": {
+      "logoLinkText": "Ewch i brif safle Llywodraeth Cymru",
+      "logoAltText": "Logo Llywodraeth Cymru",
+      "logoFilePath": "img/wg-logo-white.svg",
+      "logoHref": "https://llyw.cymru/"
+    },
+    "wraLogo": {
+      "logoLinkText": "Ewch i brif safle Awdurdod Cyllid Cymru",
+      "logoAltText": "Logo Awdurdod Cyllid Cymru",
+      "logoFilePath": "img/wra-logo-welsh.svg",
+      "logoHref": "https://llyw.cymru/awdurdod-cyllid-cymru"
+    },
+    "wgLogo": {
+      "logoLinkText": "Ewch i brif safle Llywodraeth Cymru",
+      "logoAltText": "Logo Llywodraeth Cymru",
+      "logoFilePath": "img/wg-logo-black.svg",
+      "logoHref": "https://llyw.cymru/"
+    },
+    "footer": {
+      "newTab": "Yn agor mewn tab newydd",
+      "accessibilityLink": "https://llyw.cymru/datganiad-hygyrchedd-awdurdod-cyllid-cymru",
+      "accessibilityText": "Hygyrchedd",
+      "cookiesText": "Cwcis",
+      "copyrightLink": "https://llyw.cymru/awdurdod-cyllid-cymru/telerau-ac-amodau-gwasanaethau-ar-lein#3524",
+      "copyrightText": "Datganiad hawlfraint",
+      "privacyLink": "https://llyw.cymru/awdurdod-cyllid-cymru/polisi-preifatrwydd",
+      "privacyText": "Polisi preifatrwydd",
+      "termsLink": "https://llyw.cymru/awdurdod-cyllid-cymru/telerau-ac-amodau-gwasanaethau-ar-lein",
+      "termsText": "Telerau ac amodau",
+      "primaryLink": {
+        "lttLink": "https://llyw.cymru/treth-trafodiadau-tir-canllaw",
+        "lttText": "Canllawiau Treth Trafodiaethau Tir",
+        "hrcLink": "https://llyw.cymru/canllaw-treth-trafodiadau-tir-ar-gyfraddau-uwch",
+        "hrcText": "Canllawiau Cyfraddau uwch y Dreth Trafodiadau Tir",
+        "mdrLink": "https://llyw.cymru/canllaw-rhyddhad-treth-trafodiadau-tir-ar-gyfer-anheddau-lluosog",
+        "mdrText": "Canllawiau Rhyddhad Treth Trafodiadau Tir ar gyfer anheddau lluosog",
+        "defaultLink": "https://llyw.cymru/awdurdod-cyllid-cymru",
+        "defaultText": "Awdurdod Cyllid Cymru"
+      }
+    },
+    "prototypeSelect": {
+      "subHeader": "Pirate Mode",
+      "header": "Plunder Ahoy Yarggghh"
+    }
+  }
+}

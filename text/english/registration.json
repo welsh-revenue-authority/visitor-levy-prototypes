@@ -1,0 +1,53 @@
+{
+  "registration": {
+    "registrationSubheader": "Registration",
+    "registrationHeader": "Visitor Levy",
+    "nextLabel": "Next",
+    "backLabel": "Back",
+    "businessType": {
+      "title": "Business Type",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "validation": "Select the type of business",
+      "answers": [
+        {
+          "label": "Individual",
+          "value": "individual"
+        },
+        {
+          "label": "Company",
+          "value": "company"
+        }
+      ]
+    },
+    "firstLastName": {
+      "title": "Personal Details",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "validation": "Select the type of business",
+      "answers": [
+        {
+          "label": "Individual",
+          "value": "individual"
+        },
+        {
+          "label": "Company",
+          "value": "company"
+        }
+      ]
+    },
+    "individualAddress": {
+      "title": "Personal Address",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "validation": "Select the type of business",
+      "answers": [
+        {
+          "label": "Individual",
+          "value": "individual"
+        },
+        {
+          "label": "Company",
+          "value": "company"
+        }
+      ]
+    }
+  }
+}

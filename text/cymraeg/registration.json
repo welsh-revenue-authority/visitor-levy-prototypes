@@ -1,0 +1,53 @@
+{
+  "registration": {
+    "registrationSubheader": "Test",
+    "registrationHeader": "Visitor test Levy",
+    "nextLabel": "Nesaf",
+    "backLabel": "Yn ôl",
+    "businessType": {
+      "title": "Welsh Business Type",
+      "description": "Lorem Welsh ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "validation": "Select the type of business",
+      "answers": [
+        {
+          "label": "Bob",
+          "value": "individual"
+        },
+        {
+          "label": "Big Rat",
+          "value": "company"
+        }
+      ]
+    },
+    "firstLastName": {
+      "title": "Personal Name",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "validation": "Select the type of business",
+      "answers": [
+        {
+          "label": "Individual",
+          "value": "individual"
+        },
+        {
+          "label": "Company",
+          "value": "company"
+        }
+      ]
+    },
+    "individualAddress": {
+      "title": "Indiviual Address",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "validation": "Select the type of business",
+      "answers": [
+        {
+          "label": "Individual",
+          "value": "individual"
+        },
+        {
+          "label": "Company",
+          "value": "company"
+        }
+      ]
+    }
+  }
+}
