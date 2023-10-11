@@ -5,12 +5,12 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "Business Type",
+      "title": "What type of accomodation provider are you?",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
       "answers": [
         {
-          "label": "Individual",
+          "label": "Individual, Sole Trader, or private home",
           "value": "individual"
         },
         {
@@ -19,35 +19,80 @@
         }
       ]
     },
-    "firstLastName": {
+    "personInfo": {
       "title": "Personal Details",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
-      "answers": [
-        {
-          "label": "Individual",
-          "value": "individual"
-        },
-        {
-          "label": "Company",
-          "value": "company"
-        }
-      ]
+      "honorific": {
+        "title": "Title",
+        "placeholder": "Your title"
+      },
+      "firstName": {
+        "title": "First name",
+        "description": "First name description",
+        "placeholder": "First name"
+      },
+      "lastName": {
+        "title": "Last name",
+        "description": "Last name description",
+        "placeholder": "Last name"
+      },
+      "middleName": {
+        "title": "Middle Name",
+        "description": "Middle name description",
+        "placeholder": "Middle name"
+      }
     },
     "individualAddress": {
       "title": "Personal Address",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
-      "validation": "Select the type of business",
-      "answers": [
-        {
-          "label": "Individual",
-          "value": "individual"
-        },
-        {
-          "label": "Company",
-          "value": "company"
-        }
-      ]
+      "validation": "Fill all fields",
+      "propertyNameTitle": "Name of property",
+      "postcodeTitle": "Postcode",
+      "address": {
+        "line1": "Address line 1",
+        "line2": "Address line 2",
+        "line3": "Address line 3",
+        "line4": "Address line 4"
+      },
+      "localAuthTitle": "Local authority"
+    },
+    "contactDetails": {
+      "title": "Contact Details",
+      "description": "Please enter your contact details",
+      "phoneNum": {
+        "title": "Mobile phone number"
+      },
+      "langPref": {
+        "title": "Language preference:",
+        "answers": [
+          {
+            "label": "English",
+            "value": "english"
+          },
+          {
+            "label": "Cymraeg",
+            "value": "cymraeg"
+          }
+        ]
+      },
+      "contactPref": {
+        "title": "Contact Preferences",
+        "answers": [
+          {
+            "label": "Phone",
+            "value": "phone"
+          },
+          {
+            "label": "E-mail",
+            "value": "email"
+          },
+          {
+            "label": "Post",
+            "value": "post"
+          }
+        ]
+      }
     }
   }
 }

@@ -23,29 +23,54 @@
       "title": "Personal Name",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
-      "answers": [
-        {
-          "label": "Individual",
-          "value": "individual"
-        },
-        {
-          "label": "Company",
-          "value": "company"
-        }
-      ]
+      "honorific": {
+        "title": "Title",
+        "placeholder": "Your title"
+      },
+      "firstName": {
+        "title": "First Welsh name",
+        "description": "First name description",
+        "placeholder": "First name"
+      },
+      "lastName": {
+        "title": "Last name",
+        "description": "Last name description",
+        "placeholder": "Last name"
+      },
+      "middleName": {
+        "title": "Middle Name",
+        "description": "Middle name description",
+        "placeholder": "Middle name"
+      }
     },
     "individualAddress": {
-      "title": "Indiviual Address",
+      "title": "Personal Address",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
-      "validation": "Select the type of business",
-      "answers": [
+      "validation": "Fill all fields",
+      "propertyNameTitle": "Name of property",
+      "postcodeTitle": "Postcode",
+      "address": {
+        "line1": "Address line 1",
+        "line2": "Address line 2",
+        "line3": "Address line 3",
+        "line4": "Address line 4"
+      },
+      "localAuthTitle": "Local authority"
+    },
+    "contactDetails": {
+      "title": "Contact Details",
+      "description": "Please enter your contact details",
+      "phoneNum": {
+        "title": "Mobile Phone Number"
+      },
+      "preferenceAnswers": [
         {
-          "label": "Individual",
-          "value": "individual"
+          "label": "English",
+          "value": "english"
         },
         {
-          "label": "Company",
-          "value": "company"
+          "label": "Cymraeg",
+          "value": "cymraeg"
         }
       ]
     }
