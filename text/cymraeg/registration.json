@@ -23,7 +23,7 @@
       "title": "Personal Details",
       "description": "In most cases, the person responsible for collecting visitor levy will be the accommodation owner. If you’re not sure who should to be named in this section see our visitor levy guidance or contact us.",
       "fieldRequirements": "All fields are required unless stated optional",
-      "validation": "Select the type of business",
+      "validation": "Fill all required inputs",
       "honorific": {
         "title": "Title",
         "list": [
@@ -46,7 +46,7 @@
         "placeholder": "Last name"
       },
       "middleName": {
-        "title": "Middle Name",
+        "title": "Middle Name (optional)",
         "description": "Middle name description",
         "placeholder": "Middle name"
       },
