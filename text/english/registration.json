@@ -5,7 +5,7 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "What type of accomodation provider are you?",
+      "title": "What type of accommodation provider are you?",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
       "answers": [
@@ -131,7 +131,7 @@
       }
     },
     "ownerQuestion": {
-      "title": "Are you the owner of the accomodation?",
+      "title": "Are you the owner of the accommodation?",
       "validation": "Select if you are the owner",
       "answers": [
         {
