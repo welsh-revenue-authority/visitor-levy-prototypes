@@ -12,10 +12,9 @@
     "headerWhatNeed": "What you’ll need",
     "listTitleWhatNeed": "When registering accommodation, you’ll need:",
     "listItems": [
-      "business contact details",
-      "address of each accommodation",
-      "number of beds or units at each accommodation",
-      "daily rate for each accommodation"
+      "Details on the accomodation provider",
+      "Contact details",
+      "Details about the visitor accommodation"
     ],
     "supportTitle": "Support",
     "supportLinkText": "Contact us",
