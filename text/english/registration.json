@@ -37,6 +37,8 @@
           "Miss",
           "Ms",
           "Mx",
+          "Pr.",
+          "Ind.",
           "Dr",
           "Prof"
         ]
@@ -142,6 +144,8 @@
           "Miss",
           "Ms",
           "Mx",
+          "Pr",
+          "Ind",
           "Dr",
           "Prof"
         ]
@@ -297,7 +301,7 @@
     },
     "accommodationDetails": {
       "title": "Visitor Accommodation details",
-      "description": "You must declare each visitor accommodation as a separate entry if these are based in different locations and/or they have a different addresses. If you have multiple Visitor accommodation on one site then please enter the details about the site. See guidance for more information.",
+      "description": "Please declare each visitor accommodation separately if they're based in different locations and/or they have different addresses",
       "validation": "Fill all fields",
       "typeTitle": "Type of accommodation",
       "residence": {
@@ -420,6 +424,7 @@
           }
         ]
       },
+      "estimatedCapacityTitle": "What is your estimated maximum people capacity for this visitor accommodation?",
       "postActionContent": "We might need information to support us in our compliance activity around this visitor accommodation related to the type of charge the levy relates to. This could be information on:",
       "postActionList": [
         "Esimated maximum people capacity",

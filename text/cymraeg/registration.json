@@ -5,7 +5,7 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "Are you an organisation or an individual",
+      "title": "Are you an company or an individual",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
       "answers": [
@@ -37,6 +37,8 @@
           "Miss",
           "Ms",
           "Mx",
+          "Pr.",
+          "Ind.",
           "Dr",
           "Prof"
         ]
@@ -52,7 +54,7 @@
     },
     "individualAddress": {
       "title": "Personal address",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "description": "Please enter information about where any correspondence should be sent to",
       "validation": "Fill all fields",
       "propertyNameTitle": "Name of property",
       "postcodeTitle": "Postcode",
@@ -92,10 +94,13 @@
     },
     "liablePerson": {
       "title": "Who is liable to pay the tax?",
-      "shortDescription": "The liable Person/s is the Visitor Accommodation Provider.",
-      "description": "The Visitor Accommodation Provider is defined as a person who is the owner, tenant, or person who otherwise exercises control over occupation and use, of the Visitor Accommodation which is the subject of a Short-Term Let.",
+      "shortDescription": "The liable Person/s is the visitor accommodation provider.",
+      "description": "The Visitor Accommodation Provider is the person or company who is ultimately responsible for paying the visitor levy to the WRA.",
       "companyNumber": {
         "label": "Company house number"
+      },
+      "companyName": {
+        "label": "Company name"
       },
       "tradingName": {
         "label": "Trading name"
@@ -125,7 +130,7 @@
     },
     "contactPersonDetails": {
       "title": "Contact person details",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
+      "description": "This section is for information concerning an authorised point of contact for Visitor Levy. This could be ... or ...",
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
       "businessRole": {
@@ -139,6 +144,8 @@
           "Miss",
           "Ms",
           "Mx",
+          "Pr",
+          "Ind",
           "Dr",
           "Prof"
         ]
@@ -149,7 +156,7 @@
       }
     },
     "contactPersonAddress": {
-      "title": "Contact person address",
+      "title": "Contact person business address",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Fill all fields",
       "propertyNameTitle": "Name of property",
@@ -195,6 +202,9 @@
       "phoneNum": {
         "title": "Mobile phone number"
       },
+      "landline": {
+        "title": "Landline"
+      },
       "langPref": {
         "title": "Language preference",
         "answers": [
@@ -231,7 +241,7 @@
       "description": "Please enter your contact details and preferences.",
       "validation": "Fill all fields",
       "phoneNum": {
-        "title": "Mobile phone number:"
+        "title": "Mobile phone number"
       },
       "landline": {
         "title": "Landline"
@@ -276,11 +286,11 @@
       "answers": [
         {
           "label": "Yes",
-          "value": "true"
+          "value": true
         },
         {
           "label": "No",
-          "value": "false"
+          "value": false
         }
       ]
     },
@@ -299,11 +309,11 @@
         "answers": [
           {
             "label": "Yes",
-            "value": "true"
+            "value": true
           },
           {
             "label": "No",
-            "value": "false"
+            "value": false
           }
         ]
       },
@@ -312,11 +322,11 @@
         "answers": [
           {
             "label": "Yes",
-            "value": "true"
+            "value": true
           },
           {
             "label": "No",
-            "value": "false"
+            "value": false
           }
         ],
         "dateTitle": "Please specify the date that this took place"
@@ -338,7 +348,7 @@
           },
           {
             "label": "Caravan or camping",
-            "value": "carvanCamping"
+            "value": "caravanCamping"
           },
           {
             "label": "Other",
@@ -413,7 +423,13 @@
             "value": ""
           }
         ]
-      }
+      },
+      "postActionContent": "We might need information to support us in our compliance activity around this visitor accommodation related to the type of charge the levy relates to. This could be information on:",
+      "postActionList": [
+        "Esimated maximum people capacity",
+        "Number of nits available for short term-let",
+        "The price of accommodation"
+      ]
     },
     "successPage": {
       "title": "Confirmation",
