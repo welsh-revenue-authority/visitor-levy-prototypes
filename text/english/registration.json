@@ -5,7 +5,7 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "Are you an company or an individual",
+      "title": "Are you a company or an individual?",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
       "answers": [
@@ -37,8 +37,8 @@
           "Miss",
           "Ms",
           "Mx",
-          "Pr.",
-          "Ind.",
+          "Pr",
+          "Ind",
           "Dr",
           "Prof"
         ]
@@ -204,6 +204,9 @@
       },
       "landline": {
         "title": "Landline"
+      },
+      "email": {
+        "title": "Email"
       },
       "langPref": {
         "title": "Language preference",
