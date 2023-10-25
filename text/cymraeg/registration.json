@@ -20,13 +20,8 @@
       ]
     },
     "personInfo": {
-      "title": "Personal details",
-      "description": {
-        "beforeLink": "In most cases, the person responsible for collecting visitor levy will be the accommodation owner. If you’re not sure who should to be named in this section see our",
-        "guidanceLinkText": "visitor levy guidance",
-        "inbetweenLinks": "or",
-        "contactLinkText": "contact us."
-      },
+      "title": "Visitor accommodation provider details",
+      "description": "The visitor accommodation provider is the person who is ultimately responsible for paying the visitor levy to the Welsh Revenue Authority.",
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
       "honorific": {
@@ -53,7 +48,7 @@
       }
     },
     "individualAddress": {
-      "title": "Personal address",
+      "title": "Visitor accommodation provider address",
       "description": "Please enter information about where any correspondence should be sent to",
       "validation": "Fill all fields",
       "propertyNameTitle": "Name of property",
@@ -93,9 +88,9 @@
       }
     },
     "liablePerson": {
-      "title": "Who is liable to pay the tax?",
+      "title": "Visitor accommodation provider details",
       "shortDescription": "The liable Person/s is the visitor accommodation provider.",
-      "description": "The Visitor Accommodation Provider is the person or company who is ultimately responsible for paying the visitor levy to the WRA.",
+      "description": "The visitor accommodation provider is the company or person who is ultimately responsible for paying the visitor levy to the Welsh Revenue Authority.",
       "companyNumber": {
         "label": "Company house number"
       },
@@ -109,6 +104,7 @@
         "label": "Registered address"
       },
       "address": {
+        "postcode": "Postcode",
         "line1": "Address line 1",
         "line2": "Address line 2 (optional)",
         "townCity": "Town or city"
@@ -129,7 +125,7 @@
       }
     },
     "contactPersonDetails": {
-      "title": "Contact person details",
+      "title": "Visitor accommodation provider contact details",
       "description": "This section is for information concerning an authorised point of contact for Visitor Levy. This could be ... or ...",
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
@@ -196,7 +192,7 @@
       }
     },
     "contactDetails": {
-      "title": "Contact details",
+      "title": "Personal contact details",
       "description": "Please enter your contact details and preferences.",
       "validation": "Fill all fields",
       "phoneNum": {
@@ -225,7 +221,7 @@
         "title": "Contact preferences",
         "answers": [
           {
-            "label": "E-mail",
+            "label": "Email",
             "value": "email"
           },
           {
@@ -303,7 +299,7 @@
       "numTitle": "Number of Owned Accomodations"
     },
     "accommodationDetails": {
-      "title": "Visitor Accommodation details",
+      "title": "Visitor accommodation details",
       "description": "Please declare each visitor accommodation separately if they're based in different locations and/or they have different addresses",
       "validation": "Fill all fields",
       "typeTitle": "Type of accommodation",
@@ -321,7 +317,7 @@
         ]
       },
       "responsibleCurrentYear": {
-        "title": "Did the accommodation provider become responsible for the occupation and use of the Visitor Accommodation, which is the subject of a Short-Term Let, during the current financial year?",
+        "title": "Did the accommodation provider become the owner of the accommodation this financial year?",
         "answers": [
           {
             "label": "Yes",
@@ -366,7 +362,7 @@
       }
     },
     "accommodationAddressType": {
-      "title": "Accommodation address",
+      "title": "Visitor accommodation address",
       "validation": "Fill all fields",
       "propertyNameTitle": "Name of property",
       "postcodeTitle": "Postcode",
