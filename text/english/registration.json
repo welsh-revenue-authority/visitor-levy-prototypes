@@ -6,7 +6,6 @@
     "backLabel": "Back",
     "businessType": {
       "title": "Are you a company or an individual?",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Select the type of business",
       "answers": [
         {
@@ -59,7 +58,7 @@
         "townCity": "Town or city"
       },
       "localAuth": {
-        "title": "Local Authority",
+        "title": "Local authority",
         "placeholder": "Select an authority",
         "list": [
           "Blaenau Gwent",
@@ -130,7 +129,7 @@
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
       "businessRole": {
-        "title": "Business Role"
+        "title": "Business role"
       },
       "honorific": {
         "title": "Title",
@@ -153,7 +152,6 @@
     },
     "contactPersonAddress": {
       "title": "Contact person business address",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit!",
       "validation": "Fill all fields",
       "propertyNameTitle": "Name of property",
       "postcodeTitle": "Postcode",
@@ -163,7 +161,7 @@
         "townCity": "Town or city"
       },
       "localAuth": {
-        "title": "Local Authority",
+        "title": "Local authority",
         "placeholder": "Select an authority",
         "list": [
           "Blaenau Gwent",
@@ -296,7 +294,7 @@
     "accommodationNum": {
       "title": "Number of owned accommodations",
       "validation": "Fill in the field with a number above 0",
-      "numTitle": "Number of Owned Accomodations"
+      "numTitle": "Number of Owned Accommodations"
     },
     "accommodationDetails": {
       "title": "Visitor accommodation details",
@@ -372,7 +370,7 @@
         "townCity": "Town or city"
       },
       "localAuth": {
-        "title": "Local Authority",
+        "title": "Local authority",
         "list": [
           "Blaenau Gwent",
           "Bridgend",
@@ -415,7 +413,7 @@
           },
           {
             "label": "Caravan or camping",
-            "value": "carvanCamping"
+            "value": "caravanCamping"
           },
           {
             "label": "Other",
@@ -426,7 +424,7 @@
       "estimatedCapacityTitle": "What is your estimated maximum people capacity for this visitor accommodation?",
       "postActionContent": "We might need information to support us in our compliance activity around this visitor accommodation related to the type of charge the levy relates to. This could be information on:",
       "postActionList": [
-        "Esimated maximum people capacity",
+        "Estimated maximum people capacity",
         "Number of nits available for short term-let",
         "The price of accommodation"
       ]
