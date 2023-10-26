@@ -190,7 +190,7 @@
       }
     },
     "contactDetails": {
-      "title": "Accommodation provider contact details",
+      "title": "Visitor accommodation provider contact details",
       "description": "Please enter your contact details and preferences.",
       "validation": "Fill all fields",
       "phoneNum": {
@@ -294,7 +294,7 @@
     "accommodationNum": {
       "title": "Number of owned accommodations",
       "validation": "Fill in the field with a number above 0",
-      "numTitle": "Number of Owned Accommodations"
+      "numTitle": "Number of owned accommodations"
     },
     "accommodationDetails": {
       "title": "Visitor accommodation details",
