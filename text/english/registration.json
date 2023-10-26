@@ -125,7 +125,7 @@
       }
     },
     "contactPersonDetails": {
-      "title": "Visitor accommodation provider contact details",
+      "title": "Contact person details",
       "description": "This section is for information concerning an authorised point of contact for Visitor Levy. This could be ... or ...",
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
@@ -192,7 +192,7 @@
       }
     },
     "contactDetails": {
-      "title": "Personal contact details",
+      "title": "Accommodation provider contact details",
       "description": "Please enter your contact details and preferences.",
       "validation": "Fill all fields",
       "phoneNum": {
