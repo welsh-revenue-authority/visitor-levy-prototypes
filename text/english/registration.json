@@ -9,7 +9,7 @@
       "validation": "Select the type of business",
       "answers": [
         {
-          "label": "Individual, Sole Trader, or private home",
+          "label": "Individual, sole trader, or private home",
           "value": "individual"
         },
         {
@@ -307,7 +307,7 @@
         ]
       },
       "responsibleCurrentYear": {
-        "title": "Did the accommodation provider become the owner of the accommodation this financial year?",
+        "title": "Did the accommodation provider become the operator of the accommodation part way through the current financial year",
         "answers": [
           {
             "label": "Yes",
@@ -423,7 +423,7 @@
     },
     "successPage": {
       "title": "Confirmation",
-      "registrationMessage": "Your registration was successful",
+      "registrationMessage": "You've registered property XX",
       "registrationReference": "Reference number:",
       "emailInformation": "If you gave us your email address to register your accommodation, we have also sent your reference number by email.",
       "contactInformation": [
