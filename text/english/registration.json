@@ -5,7 +5,7 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "Are you a company or an individual?",
+      "title": "Are you a company / charity or an individual?",
       "validation": "Select the type of business",
       "answers": [
         {
@@ -13,8 +13,8 @@
           "value": "individual"
         },
         {
-          "label": "Company",
-          "value": "company"
+          "label": "Company / charity",
+          "value": "companyCharity"
         }
       ]
     },
@@ -91,10 +91,10 @@
       "shortDescription": "The liable Person/s is the visitor accommodation provider.",
       "description": "The visitor accommodation provider is the company or person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
       "companyNumber": {
-        "label": "Company house number"
+        "label": "Company house / charity number"
       },
       "companyName": {
-        "label": "Company name"
+        "label": "Company / charity name"
       },
       "tradingName": {
         "label": "Trading name"
@@ -225,10 +225,6 @@
           {
             "label": "Phone",
             "value": "phone"
-          },
-          {
-            "label": "Post",
-            "value": "post"
           }
         ]
       }
@@ -269,10 +265,6 @@
           {
             "label": "Phone",
             "value": "phone"
-          },
-          {
-            "label": "Post",
-            "value": "post"
           }
         ]
       }
