@@ -113,16 +113,6 @@
         "sameTickbox": "Same as above"
       }
     },
-    "directorInfo": {
-      "title": "Who is liable to pay the tax?",
-      "description": "In case of any legal proceedings please provide director details for any formal communications. You will be able to nominate an authorised contact person in the next screen.",
-      "name": {
-        "label": "Director name"
-      },
-      "email": {
-        "label": "Director email address"
-      }
-    },
     "contactPersonDetails": {
       "title": "Contact person details",
       "description": "This section is for information concerning an authorised point of contact for Visitor Levy.",
