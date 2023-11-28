@@ -20,7 +20,7 @@
     },
     "personInfo": {
       "title": "Visitor accommodation provider details",
-      "description": "The visitor accommodation provider is the person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
+      "description": "The visitor accommodation provider is the person who is responsible for remitting the visitor levy to the Welsh Revenue Authority.",
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
       "honorific": {

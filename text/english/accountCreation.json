@@ -1,6 +1,8 @@
 {
   "nextLabel": "Next",
-  "backLabel": "Exit",
+  "backLabel": "Back",
+  "title": "Account Setup",
+  "subtitle": "Complete your account details",
   "accountDetails": {
     "title": "Complete your account details",
     "description": "If we need to contact you about your account, we'll use these details",
