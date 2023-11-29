@@ -103,7 +103,7 @@
     ]
   },
   "accommodationContact": {
-    "title": "Will you be the authorised contact for these visitor accommodations",
+    "title": "Will you be the authorised contact for these visitor accommodations?",
     "description": "An authorised contact is the person we contact for questions about the visitor accommodation",
     "description2": "If you select yes, we will use your account details to pre-populate some of this information.",
     "answers": [

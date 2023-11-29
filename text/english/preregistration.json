@@ -19,7 +19,7 @@
     ]
   },
   "chargeService": {
-    "title": "Do you charge a fee for this service",
+    "title": "Do you charge a fee for this service?",
     "validation": "Please select a field",
     "answers": [
       {
