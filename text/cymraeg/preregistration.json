@@ -32,6 +32,19 @@
       }
     ]
   },
+  "liablePerson": {
+    "title": "Are you a liable person or acting on their behalf.",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "label": "No",
+        "value": false
+      }
+    ]
+  },
   "accountNotRequired": {
     "title": "You do not need an accommodation provider account",
     "description": "See guidance for more information on when you should create an accommodaiton account."

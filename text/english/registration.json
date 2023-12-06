@@ -5,7 +5,7 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "Are you a company / charity or an individual?",
+      "title": "Is the accommodation provider a company or individual",
       "validation": "Select the type of business",
       "answers": [
         {
@@ -427,6 +427,64 @@
     },
     "summaryPage": {
       "title": "Summary so far"
+    },
+    "numAccommodation": {
+      "title": "How many visitor accommodations do you have to register?",
+      "description": "Please declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
+      "accomNumber": "Number of accommodations"
+    },
+    "sameAddress": {
+      "title": "Are these visitor accommodations in the same address?",
+      "answers": [
+        {
+          "label": "Yes",
+          "value": true
+        },
+        {
+          "label": "No",
+          "value": false
+        }
+      ]
+    },
+    "multipleAccommodation": {
+      "title": "How many visitor accommodations do you have to register?",
+      "description": "Please declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
+      "answers": [
+        {
+          "label": "One",
+          "value": "one"
+        },
+        {
+          "label": "Multiple",
+          "value": "multiple"
+        }
+      ]
+    },
+    "liableRelationship": {
+      "title": "Who is completing this registration?",
+      "answers": [
+        {
+          "label": "the accommodation provider or authorised person within accommodation",
+          "value": "owner"
+        },
+        {
+          "label": "a relative, friend, or a third party representative",
+          "value": "agent"
+        }
+      ]
+    },
+    "sameProvider": {
+      "title": "Is the same accommodation provider responsible for these visitor accommodations?",
+      "answers": [
+        {
+          "label": "Yes",
+          "value": true
+        },
+        {
+          "label": "No",
+          "value": false
+        }
+      ]
     }
   }
 }

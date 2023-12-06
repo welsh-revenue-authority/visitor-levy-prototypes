@@ -1,9 +1,11 @@
 {
   "nextLabel": "Next",
   "backLabel": "Back",
+  "title": "Account Setup",
+  "subtitle": "Create your account",
   "accountDetails": {
     "title": "Complete your account details",
-    "description": "We require the account holder contact details to inform you of any changes",
+    "description": "If we need to contact you about your account, we'll use these details",
     "name": "Full name",
     "businessName": "Business name",
     "address": {
@@ -38,27 +40,107 @@
           "Vale of Glamorgan",
           "Wrexham"
         ]
-      },
-      "email": "Email address",
-      "telephone": "Telephone number",
-      "agentRegister": {
-        "title": "Do you want to register as an agent",
-        "description": "",
-        "answers": [
-          {
-            "label": "Yes",
-            "value": true
-          },
-          {
-            "label": "No",
-            "value": false
-          }
-        ]
       }
+    },
+    "email": "Email",
+    "telephone": "Phone",
+    "langPref": {
+      "title": "Language preference",
+      "answers": [
+        {
+          "label": "Cymraeg",
+          "value": "cymraeg"
+        },
+        {
+          "label": "English",
+          "value": "english"
+        }
+      ]
+    },
+    "agentRegister": {
+      "title": "Do you want to register as an agent?",
+      "description": "If you want to represent another business (either as a professional surveyor, an accountant, friend, or relative), we will give you a unique agent code. You will need to give this code to that business so they can appoint you to speak for them.",
+      "answers": [
+        {
+          "label": "Yes",
+          "value": true
+        },
+        {
+          "label": "No",
+          "value": false
+        }
+      ]
     }
   },
   "accommodationNumber": {
-    "title": "How many visitor accommodations do you have to register",
-    "description": "Please declare each visitor accommodation sepeparately, if they're based in a different location and/or they have a different address"
+    "title": "How many visitor accommodations do you want to register?",
+    "description": "You'll need to declare each visitor accommodation separately if:",
+    "descriptionList": [
+      "they're in different locations and/or",
+      "they have different addresses"
+    ],
+    "numAccom": "Number of visitor accommodations"
+  },
+  "email": {
+    "title": "Enter your email address",
+    "description": [
+      "This will only be used to send you security updates or if you need to recover your sign in details.",
+      "To confirm it is your email address we will send you a code."
+    ],
+    "emailInput": "Email address"
+  },
+  "password": {
+    "title": "Enter your password",
+    "passwordInput": "Password",
+    "passwordRepeat": "Repeat password"
+  },
+  "signIn": {
+    "title": "Sign in",
+    "description": "Please enter your login details. If you have forgotten your password, please select the 'Forgot Password' button.",
+    "username": "Username",
+    "password": "Password"
+  },
+  "accountCreated": {
+    "title": "Thank you for creating a visitor accommodation account",
+    "description": [
+      "You will soon receive an email to confirm the creation of your account",
+      "For further information please follow the links below"
+    ],
+    "guidesTitle": "How to guides",
+    "guidesList": [
+      "Register your visitor accommodation"
+    ],
+    "buttonClose": "Close",
+    "buttonLogin": "Login"
+  },
+  "accommodationOperator": {
+    "title": "Are you the operator for these visitor accommodations?",
+    "description": "An operator is the person who enters into the accommodation supply contract with a Visitor.",
+    "description2": "If you select yes, we'll use your account details to pre-populate some of this information.",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "label": "No",
+        "value": false
+      }
+    ]
+  },
+  "accommodationContact": {
+    "title": "Will you be the authorised contact for these visitor accommodations?",
+    "description": "An authorised contact is the person we contact for questions about the visitor accommodation",
+    "description2": "If you select yes, we will use your account details to pre-populate some of this information.",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "label": "No",
+        "value": false
+      }
+    ]
   }
 }
