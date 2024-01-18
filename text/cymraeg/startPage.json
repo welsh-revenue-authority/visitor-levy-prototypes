@@ -1,25 +1,19 @@
 {
   "startPage": {
     "subtitle": "Guidance",
-    "title": "Register accommodation to pay visitor levy",
-    "introPara": "As an accommodation provider, use this service to register your accommodation for visitor levy",
-    "timePara": "Allow 15 minutes to register your accommodation. If you have more than 1 accommodation, allow an extra 5 minutes for each one.",
-    "whoRegister": "If you’re a visitor to Wales, you do not need to register with this service. Your accommodation provider will collect the levy from you.",
-    "buttonStart": "Start now",
-    "buttonLabel": "Welsh Revenue Authority online service",
-    "headerBeforeStart": "Before you start",
-    "beforeStartSameAccom": "You cannot register the same accommodation more than once. If you’re unsure, you can see the accommodation that has been registered to your account when you login.",
-    "headerWhatNeed": "What you’ll need",
-    "listTitleWhatNeed": "When registering accommodation, you’ll need:",
-    "listItems": [
-      "business contact details",
-      "address of each accommodation",
-      "number of beds or units at each accommodation",
-      "daily rate for each accommodation"
+    "title": "Register visitor accommodation",
+    "description": "Use this service to:",
+    "serviceUses": [
+      "register visitor accommodation",
+      "register visitor providers",
+      "pay visitor levy"
     ],
+    "buttonStart": "Create an account",
+    "requirements": "You must have an email address. You'll need access to your mobile phone if you have one",
+    "alreadyAccount": "If you already have an account click here",
     "supportTitle": "Support",
     "supportLinkText": "Contact us",
-    "supportText": " if you need any help with this process.",
+    "supportText": " if you need help with this process.",
     "sideLinkOrgTitle": "Organisation",
     "sideLinkWra": "https://www.gov.wales/welsh-revenue-authority",
     "sideLinkWraText": "Welsh Revenue Authority"

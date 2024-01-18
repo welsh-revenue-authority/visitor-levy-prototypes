@@ -85,9 +85,9 @@
     "title": "Enter your email address",
     "description": [
       "This will only be used to send you security updates or if you need to recover your sign in details.",
-      "To confirm it is your email address we will send you a code."
+      "To confirm it is your email address we'll send you a code."
     ],
-    "emailInput": "Email address"
+    "emailInput": "Email"
   },
   "password": {
     "title": "Enter your password",
@@ -96,15 +96,14 @@
   },
   "signIn": {
     "title": "Sign in",
-    "description": "Please enter your login details. If you have forgotten your password, please select the 'Forgot Password' button.",
     "username": "Username",
     "password": "Password"
   },
   "accountCreated": {
     "title": "Thank you for creating a visitor accommodation account",
     "description": [
-      "You will soon receive an email to confirm the creation of your account",
-      "For further information please follow the links below"
+      "You will receive an email confirmation in the next 24 hours to confirm your account has been created",
+      "For further information and guidance"
     ],
     "guidesTitle": "How to guides",
     "guidesList": [

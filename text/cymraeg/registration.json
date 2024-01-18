@@ -20,7 +20,7 @@
     },
     "personInfo": {
       "title": "Visitor accommodation provider details",
-      "description": "The visitor accommodation provider is the person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
+      "description": "The visitor accommodation provider is the person who's responsible for allowing visitors to stay at the visitor accommodation.",
       "fieldRequirements": "All fields are required unless stated optional",
       "validation": "Fill all required inputs",
       "honorific": {
@@ -89,7 +89,7 @@
     "liablePerson": {
       "title": "Visitor accommodation provider details",
       "shortDescription": "The liable Person/s is the visitor accommodation provider.",
-      "description": "The visitor accommodation provider is the company or person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
+      "description": "The visitor accommodation provider is the person who's responsible for allowing visitors to stay at the visitor accommodation",
       "companyNumber": {
         "label": "Company house number"
       },
@@ -298,7 +298,7 @@
     },
     "accommodationDetails": {
       "title": "Visitor accommodation details",
-      "description": "Please declare each visitor accommodation separately if they're based in different locations and/or they have different addresses",
+      "description": "Declare each visitor accommodation separately if they're based in different locations and/or they have different addresses",
       "validation": "Fill all fields",
       "typeTitle": "Type of accommodation",
       "residence": {

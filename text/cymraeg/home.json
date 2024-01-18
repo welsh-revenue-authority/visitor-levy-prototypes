@@ -1,0 +1,44 @@
+{
+  "error": "Error:",
+  "navDrawer": {
+    "home": "Home",
+    "accommodation": "Accommodation details",
+    "businesses": "Your businesses",
+    "account": "Account details"
+  },
+  "todoList": {
+    "title": "To do"
+  },
+  "homeView": {
+    "title": "Your accommodation service account",
+    "greeting": "Croeso",
+    "unreadMessages": "unread message"
+  },
+  "accommodationView": {
+    "title": "Your registered accommodations",
+    "linkLiable": "Link businesses",
+    "noLiableLink": "No businesses to link to",
+    "addAccommodation": "Add accommodation",
+    "incomplete": "Not completed",
+    "createReturn": "Create visitor levy return",
+    "deregister": "Deregister",
+    "completeReg": "Click here to complete registration",
+    "liableEntities": "Liable entities page",
+    "accomInfo": "Accommodation information",
+    "accomProvider": "Accommodation provider"
+  },
+  "liableView": {
+    "title": "Your businesses",
+    "addLiable": "Add liable person",
+    "linkLiable": "Link businesses",
+    "noLiableLink": "No businesses to link to",
+    "businessInfo": "Business information",
+    "linkedAccommodations": "Linked accommodations",
+    "completeReg": "Click here to complete registration",
+    "deregister": "Deregister entity"
+  },
+  "accountView": {
+    "title": "Your account details",
+    "tableTitle": "Account information"
+  }
+}

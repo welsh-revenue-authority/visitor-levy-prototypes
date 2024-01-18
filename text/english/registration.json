@@ -5,7 +5,7 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "businessType": {
-      "title": "Is the accommodation provider a company or individual",
+      "title": "Is the accommodation provider a company or individual?",
       "validation": "Select the type of business",
       "answers": [
         {
@@ -13,7 +13,7 @@
           "value": "individual"
         },
         {
-          "label": "Company / charity",
+          "label": "Company or charity",
           "value": "companyCharity"
         }
       ]
@@ -91,10 +91,10 @@
       "shortDescription": "The liable Person/s is the visitor accommodation provider.",
       "description": "The visitor accommodation provider is the company or person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
       "companyNumber": {
-        "label": "Company house / charity number"
+        "label": "Company house or charity number"
       },
       "companyName": {
-        "label": "Company / charity name"
+        "label": "Company or charity name"
       },
       "tradingName": {
         "label": "Trading name"
@@ -280,7 +280,7 @@
     },
     "accommodationDetails": {
       "title": "Visitor accommodation details",
-      "description": "Please declare each visitor accommodation separately if they're based in different locations and/or they have different addresses",
+      "description": "Declare each visitor accommodation separately if they're based in different locations and/or they have different addresses",
       "validation": "Fill all fields",
       "typeTitle": "Type of accommodation",
       "residence": {
@@ -311,7 +311,7 @@
         "dateTitle": "Please specify the date that this took place"
       },
       "type": {
-        "title": "Please classify the type of accommodation",
+        "title": "Type of accommodation",
         "answers": [
           {
             "label": "Hotel",
@@ -379,7 +379,7 @@
         ]
       },
       "type": {
-        "title": "Please classify the type of accommodation:",
+        "title": "Type of accommodation:",
         "answers": [
           {
             "label": "Hotel",
@@ -430,11 +430,11 @@
     },
     "numAccommodation": {
       "title": "How many visitor accommodations do you have to register?",
-      "description": "Please declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
+      "description": "Declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
       "accomNumber": "Number of accommodations"
     },
     "sameAddress": {
-      "title": "Are these visitor accommodations in the same address?",
+      "title": "Do these visitor accommodations have the same address?",
       "answers": [
         {
           "label": "Yes",
@@ -448,7 +448,7 @@
     },
     "multipleAccommodation": {
       "title": "How many visitor accommodations do you have to register?",
-      "description": "Please declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
+      "description": "Declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
       "answers": [
         {
           "label": "One",
@@ -464,11 +464,11 @@
       "title": "Who is completing this registration?",
       "answers": [
         {
-          "label": "the accommodation provider or authorised person within accommodation",
+          "label": "the accommodation provider or authorised person within the accommodation",
           "value": "owner"
         },
         {
-          "label": "a relative, friend, or a third party representative",
+          "label": "a relative, friend, or a third-party representative",
           "value": "agent"
         }
       ]
