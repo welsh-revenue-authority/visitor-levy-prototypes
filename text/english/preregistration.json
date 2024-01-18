@@ -2,10 +2,9 @@
   "nextLabel": "Next",
   "backLabel": "Back",
   "subtitle": "Registration",
-  "title": "Accommodation",
+  "title": "Visitor accommodation",
   "provideAccommodation": {
     "title": "Do you provide visitor accommodation in Wales?",
-    "description": "Visitor accommodation is the use of property for short term living accommodation where the guests pay fees to stay there. Making your home available to family or friends at no charge is not visitor accommodation",
     "validation": "Please select a field",
     "answers": [
       {
@@ -47,6 +46,6 @@
   },
   "accountNotRequired": {
     "title": "You do not need an accommodation provider account",
-    "description": "See guidance for more information on when you should create an accommodaiton account."
+    "description": "See guidance for information on when you should create an accommodation account."
   }
 }
