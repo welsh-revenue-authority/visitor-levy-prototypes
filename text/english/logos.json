@@ -1,0 +1,14 @@
+{
+  "wraLogo": {
+    "logoLinkText": "Go to the main Welsh Revenue Authority site",
+    "logoAltText": "Welsh Revenue Authority Logo",
+    "logoFilePath": "img/wra-logo-english.svg",
+    "logoHref": "https://gov.wales/welsh-revenue-authority"
+  },
+  "wgLogo": {
+    "logoLinkText": "Go to the main Welsh Government site",
+    "logoAltText": "Welsh Government Logo",
+    "logoFilePath": "img/wg-logo-black.svg",
+    "logoHref": "https://gov.wales/"
+  }
+}
