@@ -1,6 +1,6 @@
 {
   "registration": {
-    "registrationSubheader": "Visitor Accommodation",
+    "registrationSubheader": "New registrations",
     "registrationHeader": "Registration",
     "nextLabel": "Next",
     "backLabel": "Back",
@@ -483,6 +483,19 @@
         {
           "label": "No",
           "value": false
+        }
+      ]
+    },
+    "regMethod": {
+      "title": "Upload accommodation details?",
+      "answers": [
+        {
+          "label": "Fill in a form",
+          "value": "form"
+        },
+        {
+          "label": "Upload a spreadshet",
+          "value": "csv"
         }
       ]
     }
