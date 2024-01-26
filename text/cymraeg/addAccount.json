@@ -1,0 +1,34 @@
+{
+  "nextLabel": "Next",
+  "backLabel": "Back",
+  "title": "Add new member",
+  "subtitle": "Settings",
+  "accountDetails": {
+    "title": "Who do you want to add?",
+    "emailLabel": "Email address",
+    "emailSubtext": "We’ll only use this to send you a receipt"
+  },
+  "accountPermissions": {
+    "title": "What permissions does the member require",
+    "permissionDesc": "Permissions can be changed at any time",
+    "permissionPref": {
+      "answers": [
+        {
+          "label": "Admin",
+          "value": "admin",
+          "info": "Permission to view and edit anything within this service"
+        },
+        {
+          "label": "Accountant",
+          "value": "accountant",
+          "info": "Permission to view financial information, submit tax returns and payments"
+        },
+        {
+          "label": "Property manager",
+          "value": "property-manager",
+          "info": "Permission to view and update records about any property within the service"
+        }
+      ]
+    }
+  }
+}

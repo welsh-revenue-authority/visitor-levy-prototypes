@@ -4,7 +4,7 @@
     "home": "Home",
     "accommodation": "Accommodation details",
     "businesses": "Your businesses",
-    "account": "Account details"
+    "settings": "Settings"
   },
   "todoList": {
     "title": "To do"
@@ -37,8 +37,8 @@
     "completeReg": "Click here to complete registration",
     "deregister": "Deregister entity"
   },
-  "accountView": {
-    "title": "Your account details",
-    "tableTitle": "Account information"
+  "settings": {
+    "title": "Settings",
+    "accountTableTitle": "Account information"
   }
 }
