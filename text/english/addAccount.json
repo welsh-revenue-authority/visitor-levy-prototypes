@@ -30,5 +30,10 @@
         }
       ]
     }
+  },
+  "accountConfirmation": {
+    "notifyTitle": "Success",
+    "notifyHeading": "email has 'permission' permissions for all your properties title",
+    "notifyText": "We have emailed adul.tuff@faff-free-properties.wales"
   }
 }

@@ -101,7 +101,7 @@
   "signIn": {
     "title": "Sign in",
     "description": "Please enter your login details. If you have forgotten your password, please select the 'Forgot Password' button.",
-    "username": "Username",
+    "email": "Email",
     "password": "Password"
   },
   "accountCreated": {
