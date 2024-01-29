@@ -3,7 +3,7 @@
   "navDrawer": {
     "home": "Home",
     "accommodation": "Accommodation details",
-    "businesses": "Your businesses",
+    "businesses": "Accommodation providers",
     "settings": "Settings"
   },
   "todoList": {
@@ -15,9 +15,9 @@
     "unreadMessages": "unread message"
   },
   "accommodationView": {
-    "title": "Your registered accommodations",
-    "linkLiable": "Link businesses",
-    "noLiableLink": "No businesses to link to",
+    "title": "Your visitor accommodations",
+    "linkLiable": "Link providers",
+    "noLiableLink": "No providers to link to",
     "addAccommodation": "Add accommodation",
     "incomplete": "Not completed",
     "createReturn": "Create visitor levy return",
@@ -28,9 +28,9 @@
     "accomProvider": "Accommodation provider"
   },
   "liableView": {
-    "title": "Your businesses",
+    "title": "Your visitor accommodation providers",
     "addLiable": "Add liable person",
-    "linkLiable": "Link businesses",
+    "linkLiable": "Link providers",
     "noLiableLink": "No businesses to link to",
     "businessInfo": "Business information",
     "linkedAccommodations": "Linked accommodations",

@@ -19,8 +19,8 @@
           "info": "Permission to view and edit anything within this service"
         },
         {
-          "label": "Accountant",
-          "value": "accountant",
+          "label": "Agent",
+          "value": "agent",
           "info": "Permission to view financial information, submit tax returns and payments"
         },
         {
