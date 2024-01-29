@@ -3,8 +3,8 @@
   "navDrawer": {
     "home": "Home",
     "accommodation": "Accommodation details",
-    "businesses": "Your businesses",
-    "account": "Account details"
+    "businesses": "Accommodation providers",
+    "settings": "Settings"
   },
   "todoList": {
     "title": "To do"
@@ -15,8 +15,8 @@
     "unreadMessages": "unread message"
   },
   "accommodationView": {
-    "title": "Your registered accommodations",
-    "linkLiable": "Link businesses",
+    "title": "Your visitor accommodations",
+    "linkLiable": "Link providers",
     "noLiableLink": "No businesses to link to",
     "addAccommodation": "Add accommodation",
     "incomplete": "Not completed",
@@ -24,21 +24,21 @@
     "deregister": "Deregister",
     "completeReg": "Click here to complete registration",
     "liableEntities": "Liable entities page",
-    "accomInfo": "Accommodation information",
+    "accomInfo": "Visitor accommodation information",
     "accomProvider": "Accommodation provider"
   },
   "liableView": {
-    "title": "Your businesses",
+    "title": "Your visitor accommodation providers",
     "addLiable": "Add liable person",
-    "linkLiable": "Link businesses",
+    "linkLiable": "Link providers",
     "noLiableLink": "No businesses to link to",
     "businessInfo": "Business information",
     "linkedAccommodations": "Linked accommodations",
     "completeReg": "Click here to complete registration",
     "deregister": "Deregister entity"
   },
-  "accountView": {
-    "title": "Your account details",
-    "tableTitle": "Account information"
+  "settings": {
+    "title": "Settings",
+    "accountTableTitle": "Account information"
   }
 }
