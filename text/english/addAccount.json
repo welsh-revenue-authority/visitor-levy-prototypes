@@ -33,7 +33,12 @@
   },
   "accountConfirmation": {
     "notifyTitle": "Success",
-    "notifyHeading": "email has 'permission' permissions for all your properties title",
-    "notifyText": "We have emailed adul.tuff@faff-free-properties.wales"
+    "notifyHeading": "has permission to view",
+    "permissionLevels": {
+      "admin": "and edit anything within this service",
+      "agent": "financial information, submit tax returns and payments",
+      "property-manager": "and update records about any property within the service"
+    },
+    "notifyText": "We have emailed"
   }
 }

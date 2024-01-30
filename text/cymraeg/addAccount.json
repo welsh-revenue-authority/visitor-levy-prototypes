@@ -19,8 +19,8 @@
           "info": "Permission to view and edit anything within this service"
         },
         {
-          "label": "Accountant",
-          "value": "accountant",
+          "label": "Agent",
+          "value": "agent",
           "info": "Permission to view financial information, submit tax returns and payments"
         },
         {
@@ -30,5 +30,15 @@
         }
       ]
     }
+  },
+  "accountConfirmation": {
+    "notifyTitle": "Success",
+    "notifyHeading": "has permission to view",
+    "permissionLevels": {
+      "admin": "and edit anything within this service",
+      "agent": "financial information, submit tax returns and payments",
+      "property-manager": "and update records about any property within the service"
+    },
+    "notifyText": "We have emailed"
   }
 }
