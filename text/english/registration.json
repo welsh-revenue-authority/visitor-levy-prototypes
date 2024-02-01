@@ -91,7 +91,7 @@
       "shortDescription": "The liable Person/s is the visitor accommodation provider.",
       "description": "The visitor accommodation provider is the company or person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
       "companyNumber": {
-        "label": "Company house or charity number"
+        "label": "Companies house or charity number"
       },
       "companyName": {
         "label": "Company or charity name"
