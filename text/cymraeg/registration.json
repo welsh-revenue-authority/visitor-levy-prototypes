@@ -91,7 +91,7 @@
       "shortDescription": "The liable Person/s is the visitor accommodation provider.",
       "description": "The visitor accommodation provider is the person who's responsible for allowing visitors to stay at the visitor accommodation",
       "companyNumber": {
-        "label": "Company house number"
+        "label": "Companies house number"
       },
       "companyName": {
         "label": "Company name"
