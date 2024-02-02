@@ -21,7 +21,7 @@
         {
           "label": "Agent",
           "value": "agent",
-          "info": "Permission to view financial information, submit tax returns and payments"
+          "info": "Permission to view financial information, submit levy returns and payments"
         },
         {
           "label": "Property manager",
@@ -36,7 +36,7 @@
     "notifyHeading": "has permission to view",
     "permissionLevels": {
       "admin": "and edit anything within this service",
-      "agent": "financial information, submit tax returns and payments",
+      "agent": "financial information, submit levy returns and payments",
       "property-manager": "and update records about any property within the service"
     },
     "notifyText": "We have emailed"
