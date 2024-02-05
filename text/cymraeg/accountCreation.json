@@ -73,7 +73,7 @@
     }
   },
   "accommodationNumber": {
-    "title": "How many visitor accommodations do you want to register?",
+    "title": "How many accommodation sites do you want to register?",
     "description": "You'll need to declare each visitor accommodation separately if:",
     "descriptionList": [
       "they're in different locations and/or",

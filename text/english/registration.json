@@ -331,7 +331,7 @@
           },
           {
             "label": "Other",
-            "value": ""
+            "value": "other"
           }
         ]
       },
@@ -429,7 +429,7 @@
       "title": "Summary so far"
     },
     "numAccommodation": {
-      "title": "How many visitor accommodations do you have to register?",
+      "title": "How many accommodation sites have you got to register?",
       "description": "Declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
       "accomNumber": "Number of accommodations"
     },
