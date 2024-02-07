@@ -494,7 +494,7 @@
           "value": "form"
         },
         {
-          "label": "Upload a spreadshet",
+          "label": "Upload a spreadsheet",
           "value": "csv"
         }
       ]
