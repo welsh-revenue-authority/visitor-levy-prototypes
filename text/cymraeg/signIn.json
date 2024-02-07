@@ -6,7 +6,7 @@
     "emailLabel": "Email"
   },
   "codePage": {
-    "codeLabel": "Enter email verification code",
-    "codeDescription": "We’ve emailed you eight digit verification code"
+    "codeLabel": "Enter verification code",
+    "codeDescription": "We’ve emailed you 8 digit verification code"
   }
 }
