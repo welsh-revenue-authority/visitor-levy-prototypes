@@ -9,7 +9,7 @@
     "emailSubtext": "We’ll only use this to send you a receipt"
   },
   "accountPermissions": {
-    "title": "What permissions does the member require",
+    "title": "What permissions does the member need",
     "permissionDesc": "Permissions can be changed at any time",
     "permissionPref": {
       "answers": [

@@ -1,7 +1,7 @@
 {
   "nextLabel": "Next",
   "backLabel": "Back",
-  "title": "Account Setup",
+  "title": "Account setup",
   "subtitle": "Create your account",
   "accountDetails": {
     "title": "Complete your account details",
@@ -83,13 +83,13 @@
   },
   "accountCreation": {
     "title": "Create a visitor accommodation service account",
-    "loginTitle": "Log in"
+    "loginTitle": "Sign in"
   },
   "email": {
     "title": "Enter your email address",
     "description": [
       "This will only be used to send you security updates or if you need to recover your sign in details.",
-      "To confirm it is your email address we'll send you a code."
+      "We'll send you a verification code to confirm it's your email address."
     ],
     "emailInput": "Email"
   },
@@ -100,22 +100,22 @@
   },
   "signIn": {
     "title": "Sign in",
-    "description": "Please enter your login details. If you have forgotten your password, please select the 'Forgot Password' button.",
+    "description": "Please enter your sign in details. If you have forgotten your password, please select the 'Forgot Password' button.",
     "email": "Email",
     "password": "Password"
   },
   "accountCreated": {
     "title": "Account created",
     "description": [
-      "You will receive an email confirmation in the next 24 hours to confirm your account has been created",
-      "For further information please follow the links below"
+      "You'll receive an email in the next 24 hours to confirm your account has been created",
+      "See guidance on our website for more information"
     ],
     "guidesTitle": "How to guides",
     "guidesList": [
       "Register your visitor accommodation"
     ],
     "buttonClose": "Close",
-    "buttonLogin": "Login"
+    "buttonLogin": "Sign in"
   },
   "accommodationOperator": {
     "title": "Are you the operator for these visitor accommodations?",
