@@ -40,5 +40,64 @@
   "settings": {
     "title": "Settings",
     "accountTableTitle": "Account information"
+  },
+  "editAccom": {
+    "nextLabel": "Next",
+    "backLabel": "Back",
+    "accomEditOptions": {
+      "validation": "Please enter correcto",
+      "title": "What do you want to do with the property",
+      "answers": [
+        {
+          "label": "De-register property",
+          "value": "deregister",
+          "info": "This property will not longer be registered as accommodation, will no longer be liable for any related rules and taxes."
+        },
+        {
+          "label": "Transfer property",
+          "value": "transfer",
+          "info": "Make another person or organisation liable for this accommodation"
+        },
+        {
+          "label": "Property type",
+          "value": "type",
+          "info": "What sort of accommodation it is, for example a hotel or campsite"
+        }
+      ]
+    },
+    "accomDeregisterDate": {
+      "validation": "Please enter a valid date",
+      "title": "When will this property stopped being used as paid visitor accommodation?",
+      "dateLabel": "Date of deregistration"
+    },
+    "accomDeregisterConfirm": {
+      "title": "Are you sure you want to de-register this property?",
+      "validation": "Are you sure you want to de-register this property?",
+      "description": "You can register a property again at any time.",
+      "answers": [
+        {
+          "label": "Yes, de-register this property",
+          "value": "deregister"
+        },
+        {
+          "label": "No, keep it registered as accommodation",
+          "value": "keep"
+        }
+      ]
+    },
+    "accomDeregisterSummary": {
+      "successBox": {
+        "title": "Success",
+        "descriptionPost": "will stop being registered as accommodation on"
+      },
+      "description": "We have sent you a confirmation email.",
+      "whatNext": {
+        "title": "What happens next",
+        "date": "You no longer need to collect visitor levy for this property from",
+        "contact": "will contact you to confirm when they've closed their records for this property.",
+        "records": "You can still see records for this property."
+      },
+      "returnLink": "Return to registered properties"
+    }
   }
 }
