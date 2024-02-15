@@ -46,7 +46,7 @@
     "backLabel": "Back",
     "accomEditOptions": {
       "validation": "Please enter correcto",
-      "title": "What do you want to do with the property",
+      "title": "What do you want to do with the property?",
       "answers": [
         {
           "label": "De-register property",
