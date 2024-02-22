@@ -45,11 +45,11 @@
     "nextLabel": "Next",
     "backLabel": "Back",
     "accomEditOptions": {
-      "validation": "Please enter correcto",
+      "validation": "Please select an option",
       "title": "What do you want to do with the property?",
       "answers": [
         {
-          "label": "De-register property",
+          "label": "Deregister property",
           "value": "deregister",
           "info": "This property will not longer be registered as accommodation, will no longer be liable for any related rules and taxes."
         },
@@ -71,12 +71,12 @@
       "dateLabel": "Date of deregistration"
     },
     "accomDeregisterConfirm": {
-      "title": "Are you sure you want to de-register this property?",
-      "validation": "Are you sure you want to de-register this property?",
+      "title": "Are you sure you want to deregister this property?",
+      "validation": "Are you sure you want to deregister this property?",
       "description": "You can register a property again at any time.",
       "answers": [
         {
-          "label": "Yes, de-register this property",
+          "label": "Yes, deregister this property",
           "value": "deregister"
         },
         {
@@ -98,6 +98,52 @@
         "records": "You can still see records for this property."
       },
       "returnLink": "Return to registered properties"
+    }
+  },
+  "closeBusiness": {
+    "nextLabel": "Next",
+    "backLabel": "Back",
+    "businessDate": {
+      "validation": "Please enter a valid date",
+      "title": "What date will your properties stop being used as paid accommodation?",
+      "dateLabel": "Date of deregistration"
+    },
+    "businessConfirm": {
+      "validation": "Please select an option",
+      "title": "Are you sure you want to deregister your business with this service?",
+      "warning": {
+        "preDynamic": "All",
+        "connective": "and",
+        "postDynamic": "will be deregisterd with this service on",
+        "levyInfo": "You will no longer be liable to pay visitor levy on these accommodations or maintain operator licences"
+      },
+      "confirmDeregister": {
+        "label": "You can register accommodation again at any time.",
+        "answers": [
+          {
+            "label": "Yes, close down the business with this service",
+            "value": "close"
+          },
+          {
+            "label": "No, make no changes",
+            "value": "keep"
+          }
+        ]
+      }
+    },
+    "businessSummary": {
+      "successBox": {
+        "title": "Success",
+        "descriptionPre": "All your properties will stop being registered as accommodation on"
+      },
+      "confirmationEmail": "We have sent you a confirmation email.",
+      "whatNext": {
+        "title": "What happens next",
+        "date": "You no longer need to collect visitor levy for these property from",
+        "contact": "will contact you to confirm when they've closed their records for this property.",
+        "records": "You can still see records for this property."
+      },
+      "returnLink": "Return to dashboard"
     }
   }
 }
