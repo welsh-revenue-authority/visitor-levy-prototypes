@@ -498,6 +498,15 @@
           "value": "csv"
         }
       ]
+    },
+    "typeDetails": {
+      "validation": "Fill all fields",
+      "title": "Visitor accommodation details",
+      "typeTable": {
+        "propType": "Property type",
+        "maxCap": "Max daily capacity",
+        "numRooms": "Number of rooms"
+      }
     }
   }
 }
