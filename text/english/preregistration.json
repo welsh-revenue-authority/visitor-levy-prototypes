@@ -4,29 +4,42 @@
   "subtitle": "Registration",
   "title": "Visitor accommodation",
   "provideAccommodation": {
-    "title": "Do you provide visitor accommodation in Wales?",
+    "title": "Where is the accommodation?",
+    "description": "Select all countries that apply",
     "validation": "Please select a field",
     "answers": [
       {
-        "label": "Yes",
-        "value": true
+        "label": "Wales",
+        "value": "wales"
       },
       {
-        "label": "No",
-        "value": false
+        "label": "England",
+        "value": "england"
+      },
+      {
+        "label": "Scotland",
+        "value": "scotland"
+      },
+      {
+        "label": "Northern Ireland",
+        "value": "northernIreland"
+      },
+      {
+        "label": "None of these nations",
+        "value": "none-above"
       }
     ]
   },
   "chargeService": {
-    "title": "Do you charge a fee for this service?",
+    "title": "Do you charge money to stay in the accommodation?",
     "validation": "Please select a field",
     "answers": [
       {
-        "label": "Yes",
+        "label": "Yes, I charge money",
         "value": true
       },
       {
-        "label": "No",
+        "label": "No, it's free to stay",
         "value": false
       }
     ]

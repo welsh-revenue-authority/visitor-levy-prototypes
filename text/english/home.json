@@ -1,9 +1,9 @@
 {
   "error": "Error:",
   "navDrawer": {
-    "home": "Home",
-    "accommodation": "Accommodation details",
-    "businesses": "Accommodation providers",
+    "home": "Dashboard",
+    "accommodation": "Accommodation",
+    "messages": "Messages",
     "settings": "Settings"
   },
   "todoList": {

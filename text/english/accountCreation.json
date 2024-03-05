@@ -82,14 +82,13 @@
     "numAccom": "Number of visitor accommodations"
   },
   "accountCreation": {
-    "title": "Create a visitor accommodation service account",
+    "title": "What is your email address?",
     "loginTitle": "Sign in"
   },
   "email": {
     "title": "Enter your email address",
     "description": [
-      "This will only be used to send you security updates or if you need to recover your sign in details.",
-      "We'll send you a verification code to confirm it's your email address."
+      "We’ll use this to send you security code"
     ],
     "emailInput": "Email"
   },
@@ -146,5 +145,14 @@
         "value": false
       }
     ]
+  },
+  "pin": {
+    "validation": "Please enter the security code",
+    "title": "Enter security code",
+    "info": {
+      "preDynamic": "Code emailed to"
+    },
+    "codeLabel": "Enter email security code",
+    "codeDescription": "We’ve emailed you a 8 digit security code"
   }
 }
