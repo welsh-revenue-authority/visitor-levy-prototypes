@@ -486,7 +486,7 @@
     ]
   },
   "regMethod": {
-    "title": "Upload visitor accommodation details?",
+    "title": "How do you want to upload your accommodation details?",
     "answers": [
       {
         "label": "Fill in a form",
@@ -505,6 +505,25 @@
       "propType": "Property type",
       "maxCap": "Max daily capacity",
       "numRooms": "Number of rooms"
+    }
+  },
+  "accomAlreadyExists": {
+    "title": "This property is already registered",
+    "description": "You can request to be the liable person for this property. An email will be sent to the current liable person to approve or reject your request.",
+    "requestButton": "Request to be liable for this property"
+  },
+  "accomExistsSuccess": {
+    "successInset": {
+      "title": "Success",
+      "description": "The accommodation's owner has been sent a request for you to take on liability for"
+    },
+    "confirmEmail": "We have sent you a Confirmation email",
+    "happensNext": {
+      "title": "What happens next",
+      "description": "An email has been sent to the current liable person to approve or reject your request",
+      "expiryDate": "This request will expired in 21 days",
+      "cancelLink": "Cancel this request",
+      "cancelPost": "anytime before its approved or rejected"
     }
   }
 }

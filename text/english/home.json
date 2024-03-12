@@ -15,10 +15,10 @@
     "unreadMessages": "unread message"
   },
   "accommodationView": {
-    "title": "Your visitor accommodations",
+    "title": "Registered properties",
     "linkLiable": "Link providers",
     "noLiableLink": "No providers to link to",
-    "addAccommodation": "Add accommodation",
+    "addAccommodation": "Add more accommodations",
     "incomplete": "Not completed",
     "createReturn": "Create visitor levy return",
     "deregister": "Deregister",
