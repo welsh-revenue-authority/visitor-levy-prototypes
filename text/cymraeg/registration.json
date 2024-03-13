@@ -1,25 +1,29 @@
 {
-  "registrationSubheader": "Registration",
-  "registrationHeader": "Visitor levy",
+  "registrationSubheader": "New registrations",
+  "registrationHeader": "Registration",
   "nextLabel": "Next",
   "backLabel": "Back",
   "businessType": {
-    "title": "Are you a company or an individual?",
+    "title": "Is the accommodation provider a company or individual?",
     "validation": "Select the type of business",
     "answers": [
       {
-        "label": "Individual, Sole Trader, or private home",
+        "label": "Individual, sole trader, or private home",
         "value": "individual"
       },
       {
-        "label": "Company",
-        "value": "company"
+        "label": "Partnership",
+        "value": "partnership"
+      },
+      {
+        "label": "Company or charity",
+        "value": "companyCharity"
       }
     ]
   },
   "personInfo": {
     "title": "Visitor accommodation provider details",
-    "description": "The visitor accommodation provider is the person who's responsible for allowing visitors to stay at the visitor accommodation.",
+    "description": "The visitor accommodation provider is the person who is responsible for remitting the visitor levy to the Welsh Revenue Authority.",
     "fieldRequirements": "All fields are required unless stated optional",
     "validation": "Fill all required inputs",
     "honorific": {
@@ -50,50 +54,50 @@
     "description": "Please enter information about where any correspondence should be sent to",
     "validation": "Fill all fields",
     "propertyNameTitle": "Name of property",
-    "postcodeTitle": "Postcode",
     "address": {
+      "localAuth": {
+        "title": "Local authority",
+        "placeholder": "Select an authority",
+        "list": [
+          "Blaenau Gwent",
+          "Bridgend",
+          "Caerphilly",
+          "Cardiff",
+          "Carmarthenshire",
+          "Ceredigion",
+          "Conwy",
+          "Denbighshire",
+          "Flintshire",
+          "Gwynedd",
+          "Isle of Anglesey",
+          "Merthyr Tydfil",
+          "Monmouthshire",
+          "Neath Port Talbot",
+          "Newport",
+          "Pembrokeshire",
+          "Powys",
+          "Rhondda Cynon Taf",
+          "Swansea",
+          "Torfaen",
+          "Vale of Glamorgan",
+          "Wrexham"
+        ]
+      },
+      "postcodeTitle": "Postcode",
       "line1": "Address line 1",
       "line2": "Address line 2 (optional)",
       "townCity": "Town or city"
-    },
-    "localAuth": {
-      "title": "Local authority",
-      "placeholder": "Select an authority",
-      "list": [
-        "Blaenau Gwent",
-        "Bridgend",
-        "Caerphilly",
-        "Cardiff",
-        "Carmarthenshire",
-        "Ceredigion",
-        "Conwy",
-        "Denbighshire",
-        "Flintshire",
-        "Gwynedd",
-        "Isle of Anglesey",
-        "Merthyr Tydfil",
-        "Monmouthshire",
-        "Neath Port Talbot",
-        "Newport",
-        "Pembrokeshire",
-        "Powys",
-        "Rhondda Cynon Taf",
-        "Swansea",
-        "Torfaen",
-        "Vale of Glamorgan",
-        "Wrexham"
-      ]
     }
   },
   "liablePerson": {
     "title": "Visitor accommodation provider details",
     "shortDescription": "The liable Person/s is the visitor accommodation provider.",
-    "description": "The visitor accommodation provider is the person who's responsible for allowing visitors to stay at the visitor accommodation",
+    "description": "The visitor accommodation provider is the company or person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
     "companyNumber": {
-      "label": "Companies house number"
+      "label": "Companies house or charity number"
     },
     "companyName": {
-      "label": "Company name"
+      "label": "Company or charity name"
     },
     "tradingName": {
       "label": "Trading name"
@@ -110,16 +114,6 @@
     "tradingAddress": {
       "label": "Trading address",
       "sameTickbox": "Same as above"
-    }
-  },
-  "directorInfo": {
-    "title": "Who is liable to pay the tax?",
-    "description": "In case of any legal proceedings please provide director details for any formal communications. You will be able to nominate an authorised contact person in the next screen.",
-    "name": {
-      "label": "Director name"
-    },
-    "email": {
-      "label": "Director email address"
     }
   },
   "contactPersonDetails": {
@@ -189,14 +183,14 @@
     }
   },
   "contactDetails": {
-    "title": "Accommodation provider contact details",
+    "title": "Visitor accommodation provider contact details",
     "description": "Please enter your contact details and preferences.",
     "validation": "Fill all fields",
     "phoneNum": {
       "title": "Mobile phone number"
     },
     "landline": {
-      "title": "Landline"
+      "title": "Landline (optional)"
     },
     "email": {
       "title": "Email"
@@ -224,10 +218,6 @@
         {
           "label": "Phone",
           "value": "phone"
-        },
-        {
-          "label": "Post",
-          "value": "post"
         }
       ]
     }
@@ -268,10 +258,6 @@
         {
           "label": "Phone",
           "value": "phone"
-        },
-        {
-          "label": "Post",
-          "value": "post"
         }
       ]
     }
@@ -314,7 +300,7 @@
       ]
     },
     "responsibleCurrentYear": {
-      "title": "Did the accommodation provider become the owner of the accommodation this financial year?",
+      "title": "Did the accommodation provider become the operator of the accommodation part way through the current financial year",
       "answers": [
         {
           "label": "Yes",
@@ -328,7 +314,7 @@
       "dateTitle": "Please specify the date that this took place"
     },
     "type": {
-      "title": "Please classify the type of accommodation",
+      "title": "Type of accommodation",
       "answers": [
         {
           "label": "Hotel",
@@ -396,7 +382,7 @@
       ]
     },
     "type": {
-      "title": "Please classify the type of accommodation:",
+      "title": "Type of accommodation:",
       "answers": [
         {
           "label": "Hotel",
@@ -430,7 +416,7 @@
   },
   "successPage": {
     "title": "Confirmation",
-    "registrationMessage": "Your registration was successful",
+    "registrationMessage": "You've registered property XX",
     "registrationReference": "Reference number:",
     "emailInformation": "If you gave us your email address to register your accommodation, we have also sent your reference number by email.",
     "contactInformation": [
@@ -444,5 +430,114 @@
   },
   "summaryPage": {
     "title": "Summary so far"
+  },
+  "numAccommodation": {
+    "title": "How many accommodation sites have you got to register?",
+    "description": "Declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
+    "accomNumber": "Number of accommodations"
+  },
+  "sameAddress": {
+    "title": "Do these visitor accommodations have the same address?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "label": "No",
+        "value": false
+      }
+    ]
+  },
+  "multipleAccommodation": {
+    "title": "How many visitor accommodations do you have to register?",
+    "description": "Declare each visitor accommodation separately, if they're based in a different location and/or they have a different address.",
+    "answers": [
+      {
+        "label": "One",
+        "value": "one"
+      },
+      {
+        "label": "Multiple",
+        "value": "multiple"
+      }
+    ]
+  },
+  "liableRelationship": {
+    "title": "Who is completing this registration?",
+    "answers": [
+      {
+        "label": "The accommodation provider or authorised person within the accommodation",
+        "value": "owner"
+      },
+      {
+        "label": "A relative, friend, or a third-party representative",
+        "value": "agent"
+      }
+    ]
+  },
+  "sameProvider": {
+    "title": "Is the same accommodation provider responsible for these visitor accommodations?",
+    "answers": [
+      {
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "label": "No",
+        "value": false
+      }
+    ]
+  },
+  "regMethod": {
+    "title": "How do you want to upload your accommodation details?",
+    "answers": [
+      {
+        "label": "Fill in a form",
+        "value": "form"
+      },
+      {
+        "label": "Upload a spreadsheet",
+        "value": "csv"
+      }
+    ]
+  },
+  "correctDeclaration": {
+    "title": "Declaration",
+    "description": "Review these statements and tick the two boxes",
+    "correctLabel": "I declare that the information that I have given on this form is correct and complete to the best of my knowledge and belief",
+    "notifyLabel": "The accommodation provider will notify us of any signifigant changes to the business activity"
+  },
+  "partnerName": {
+    "title": "Partner Name",
+    "nameLabel": "Full name"
+  },
+  "typeDetails": {
+    "validation": "Fill all fields",
+    "title": "Visitor accommodation details",
+    "typeTable": {
+      "propType": "Property type",
+      "maxCap": "Max daily capacity",
+      "numRooms": "Number of rooms"
+    }
+  },
+  "accomAlreadyExists": {
+    "title": "This property is already registered",
+    "description": "You can request to be the liable person for this property. An email will be sent to the current liable person to approve or reject your request.",
+    "requestButton": "Request to be liable for this property"
+  },
+  "accomExistsSuccess": {
+    "successInset": {
+      "title": "Success",
+      "description": "The accommodation's owner has been sent a request for you to take on liability for"
+    },
+    "confirmEmail": "We have sent you a Confirmation email",
+    "happensNext": {
+      "title": "What happens next",
+      "description": "An email has been sent to the current liable person to approve or reject your request",
+      "expiryDate": "This request will expired in 21 days",
+      "cancelLink": "Cancel this request",
+      "cancelPost": "anytime before its approved or rejected"
+    }
   }
 }

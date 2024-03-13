@@ -12,6 +12,10 @@
         "value": "individual"
       },
       {
+        "label": "Partnership",
+        "value": "partnership"
+      },
+      {
         "label": "Company or charity",
         "value": "companyCharity"
       }
@@ -463,11 +467,11 @@
     "title": "Who is completing this registration?",
     "answers": [
       {
-        "label": "the accommodation provider or authorised person within the accommodation",
+        "label": "The accommodation provider or authorised person within the accommodation",
         "value": "owner"
       },
       {
-        "label": "a relative, friend, or a third-party representative",
+        "label": "A relative, friend, or a third-party representative",
         "value": "agent"
       }
     ]
@@ -497,6 +501,30 @@
         "value": "csv"
       }
     ]
+  },
+  "correctDeclaration": {
+    "title": "Declaration",
+    "description": "Review these statements and tick the two boxes",
+    "correctLabel": "I declare that the information that I have given on this form is correct and complete to the best of my knowledge and belief",
+    "notifyLabel": "The accommodation provider will notify us of any signifigant changes to the business activity"
+  },
+  "partnerName": {
+    "title": "Partner Name",
+    "nameLabel": "Full name"
+  },
+  "partnerPointContact": {
+    "title": "Who is the main point of contact",
+    "description": "Please select the partner who will be the main point of contact for the business"
+  },
+  "pointContactAddress": {
+    "title": "What is the partnership contact's postcode?",
+    "description": "Partnership address is the contact address for the partner who is the main point of contact.",
+    "postcodeLabel": "Postcode"
+  },
+  "partnerContactDetails": {
+    "title": "Partnership Contact Details",
+    "mainPhoneNumber": "Main phone number",
+    "secPhoneNumber": "Secondary phone number (optional)"
   },
   "typeDetails": {
     "validation": "Fill all fields",
