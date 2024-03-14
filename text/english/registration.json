@@ -527,8 +527,20 @@
     "secPhoneNumber": "Secondary phone number (optional)"
   },
   "typeDetails": {
+    "unitName": {
+      "b&b": "rooms",
+      "hotel": "rooms",
+      "selfCatering": "rooms",
+      "caravanCamping": "pitches",
+      "catchAll": "units"
+    },
+    "titleMaxSleeping": "What is the maximum nightly sleeping capacity of the",
     "validation": "Fill all fields",
-    "title": "Visitor accommodation details",
+    "titlePre": "How many",
+    "titleMiddle": "does the",
+    "titleEnd": "have?",
+    "numberUnits": "Number of",
+    "maxCap": "people",
     "typeTable": {
       "propType": "Property type",
       "maxCap": "Max daily capacity",
