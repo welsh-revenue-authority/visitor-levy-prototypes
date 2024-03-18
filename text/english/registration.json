@@ -16,8 +16,12 @@
         "value": "partnership"
       },
       {
-        "label": "Company or charity",
-        "value": "companyCharity"
+        "label": "Company",
+        "value": "company"
+      },
+      {
+        "label": "Charity",
+        "value": "charity"
       }
     ]
   },
@@ -590,5 +594,64 @@
       "cancelLink": "Cancel this request",
       "cancelPost": "anytime before its approved or rejected"
     }
+  },
+  "companyRole": {
+    "validation": "Select your role within the company",
+    "title": "What is your role within this company?",
+    "answers": [
+      {
+        "label": "I am the director of the company",
+        "value": "director"
+      },
+      {
+        "label": "I am an employee from the company",
+        "value": "employee"
+      },
+      {
+        "label": "I represent the company",
+        "value": "represent"
+      }
+    ]
+  },
+  "charityDetails": {
+    "validation": "Fill all required inputs",
+    "title": "Charity details",
+    "companyNumber": {
+      "label": "Charity number"
+    },
+    "companyName": {
+      "label": "Charity name"
+    },
+    "registeredAddress": {
+      "label": "Registered address"
+    },
+    "address": {
+      "postcode": "Postcode",
+      "line1": "Address line 1",
+      "line2": "Address line 2 (optional)",
+      "townCity": "Town or city"
+    }
+  },
+  "verifyCharity": {
+    "title": "Is this your charity?",
+    "charityTable": {
+      "name": "Charity name",
+      "number": "Charity number",
+      "address": "Address",
+      "registered": "Registered"
+    },
+    "correctDetails": "Yes, this is my charity",
+    "addManual": "Add details manually"
+  },
+  "verifyCompany": {
+    "title": "Is this your company?",
+    "companyTable": {
+      "name": "Company name",
+      "number": "Company number",
+      "address": "Address",
+      "registered": "Registered"
+    },
+    "correctDetails": "Yes, this is my company",
+    "addManual": "Add details manually"
   }
 }
