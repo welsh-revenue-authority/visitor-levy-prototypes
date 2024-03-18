@@ -547,6 +547,31 @@
       "numRooms": "Number of rooms"
     }
   },
+  "sharedFacilities": {
+    "validation": "Fill all fields",
+    "titlePre": "Do guests in the",
+    "titlePost": "use any shared facilities",
+    "description": "Knowing this will help determinate what rate of visitor levy guest will pay.",
+    "checkboxLabel": "Select all facilities that apply",
+    "checkboxAnswers": [
+      {
+        "label": "Shared bathrooms and show facilities",
+        "value": "shareBath"
+      },
+      {
+        "label": "Shared dormitories",
+        "value": "shareDorms"
+      },
+      {
+        "label": "Shared kitchen facilities",
+        "value": "shareKitchen"
+      },
+      {
+        "label": "None of these facilities",
+        "value": "none"
+      }
+    ]
+  },
   "accomAlreadyExists": {
     "title": "This property is already registered",
     "description": "You can request to be the liable person for this property. An email will be sent to the current liable person to approve or reject your request.",
