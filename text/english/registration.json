@@ -9,19 +9,23 @@
     "answers": [
       {
         "label": "Individual, sole trader, or private home",
-        "value": "individual"
+        "value": "individual",
+        "info": "This property will not longer be registered as accommodation, will no longer be liable for any related rules and taxes."
       },
       {
         "label": "Partnership",
-        "value": "partnership"
+        "value": "partnership",
+        "info": "You and your business partner (or partners) personally share responsibility for your business"
       },
       {
         "label": "Company",
-        "value": "company"
+        "value": "company",
+        "info": "This includes limited companies and public limited companies."
       },
       {
         "label": "Charity",
-        "value": "charity"
+        "value": "charity",
+        "info": "The organisation is registered with the Charity Commisssion."
       }
     ]
   },
@@ -93,15 +97,13 @@
       "townCity": "Town or city"
     }
   },
-  "liablePerson": {
-    "title": "Visitor accommodation provider details",
-    "shortDescription": "The liable Person/s is the visitor accommodation provider.",
-    "description": "The visitor accommodation provider is the company or person who is responsible for paying the visitor levy to the Welsh Revenue Authority.",
+  "companyDetails": {
+    "title": "Company details",
     "companyNumber": {
-      "label": "Companies house or charity number"
+      "label": "Search for company on companies house"
     },
     "companyName": {
-      "label": "Company or charity name"
+      "label": "Company name"
     },
     "tradingName": {
       "label": "Trading name"
@@ -348,7 +350,7 @@
       "numRooms": "Number of rooms for rent"
     }
   },
-  "accommodationAddressType": {
+  "accomDetails": {
     "title": "Visitor accommodation address",
     "validation": "Fill all fields",
     "propertyNameTitle": "Name of property",
@@ -406,7 +408,7 @@
         },
         {
           "label": "Other",
-          "value": ""
+          "value": "other"
         }
       ]
     },
@@ -559,7 +561,7 @@
     "checkboxLabel": "Select all facilities that apply",
     "checkboxAnswers": [
       {
-        "label": "Shared bathrooms and show facilities",
+        "label": "Shared bathrooms and shower facilities",
         "value": "shareBath"
       },
       {
@@ -614,12 +616,12 @@
     ]
   },
   "charityDetails": {
-    "validation": "Fill all required inputs",
     "title": "Charity details",
-    "companyNumber": {
-      "label": "Charity number"
+    "validation": "Fill all required inputs",
+    "charityNumber": {
+      "label": "Search for charity"
     },
-    "companyName": {
+    "charityName": {
       "label": "Charity name"
     },
     "registeredAddress": {
@@ -641,7 +643,7 @@
       "registered": "Registered"
     },
     "correctDetails": "Yes, this is my charity",
-    "addManual": "Add details manually"
+    "searchAgain": "Search again"
   },
   "verifyCompany": {
     "title": "Is this your company?",
@@ -652,6 +654,79 @@
       "registered": "Registered"
     },
     "correctDetails": "Yes, this is my company",
-    "addManual": "Add details manually"
+    "searchAgain": "Search again"
+  },
+  "companyManualDetails": {
+    "title": "Company details",
+    "companyNumber": {
+      "label": "Companies house number"
+    },
+    "companyName": {
+      "label": "Company name"
+    },
+    "tradingName": {
+      "label": "Trading name"
+    },
+    "registeredAddress": {
+      "label": "Registered address"
+    },
+    "address": {
+      "postcode": "Postcode",
+      "line1": "Address line 1",
+      "line2": "Address line 2 (optional)",
+      "townCity": "Town or city"
+    },
+    "tradingAddress": {
+      "label": "Trading address",
+      "sameTickbox": "Same as above"
+    }
+  },
+  "charityManualDetails": {
+    "title": "Charity details",
+    "validation": "Fill all required inputs",
+    "charityNumber": {
+      "label": "Charity number"
+    },
+    "charityName": {
+      "label": "Charity name"
+    },
+    "registeredAddress": {
+      "label": "Registered address"
+    },
+    "address": {
+      "postcode": "Postcode",
+      "line1": "Address line 1",
+      "line2": "Address line 2 (optional)",
+      "townCity": "Town or city"
+    }
+  },
+  "accomSites": {
+    "title": "Site details",
+    "validation": "Fill all fields",
+    "siteTypes": {
+      "title": "Type of sites:",
+      "answers": [
+        {
+          "label": "Hotel",
+          "value": "hotel"
+        },
+        {
+          "label": "B&B",
+          "value": "b&b"
+        },
+        {
+          "label": "Self-catering",
+          "value": "selfCatering"
+        },
+        {
+          "label": "Caravan or camping",
+          "value": "caravanCamping"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ]
+    }
   }
 }
