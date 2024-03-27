@@ -1,0 +1,36 @@
+{
+  "navDrawer": {
+    "home": "Dashboard",
+    "serviceUsers": "Service users",
+    "accommodation": "Accommodation",
+    "localAuth": "Local authorities",
+    "settings": "Settings"
+  },
+  "homeView": {
+    "title": "Accommodation in Wales",
+    "search": {
+      "placeholder": "Search by address, organisation or individual name",
+      "button": "Search"
+    },
+    "attention": {
+      "title": "Needs attention",
+      "link": "View all items requiring attention"
+    },
+    "accommodation": {
+      "title": "Accommodation",
+      "link": "VIew all registered accommodation"
+    },
+    "localAuth": {
+      "title": "Local authorities",
+      "link": "View all local authorities"
+    }
+  },
+  "accomView": {
+    "title": "Registered accommodation",
+    "subtitle": "Properties",
+    "search": {
+      "placeholder": "Search accommodation",
+      "button": "Search"
+    }
+  }
+}
