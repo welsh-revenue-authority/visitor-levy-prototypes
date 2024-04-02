@@ -12,6 +12,18 @@
       "placeholder": "Search by address, organisation or individual name",
       "button": "Search"
     },
+    "levy": {
+      "title": "Visitor levy",
+      "nights": "Night stays in",
+      "collected": "of levy collected in",
+      "table": {
+        "period": "Period",
+        "amount": "Amount",
+        "stays": "Stays",
+        "accom": "Accommodation"
+      },
+      "link": "View transactions"
+    },
     "attention": {
       "title": "Needs attention",
       "link": "View all items requiring attention"
@@ -23,6 +35,16 @@
     "localAuth": {
       "title": "Local authorities",
       "link": "View all local authorities"
+    },
+    "licences": {
+      "title": "Licences",
+      "valid": "Valid licences",
+      "expired": "Expired or invalid",
+      "table": {
+        "reason": "Reason",
+        "accom": "Accommodation"
+      },
+      "link": "View licences"
     }
   },
   "accomView": {
@@ -40,6 +62,15 @@
       "properties": "Properties",
       "levy": "Visitor levy",
       "link": "View"
+    }
+  },
+  "localAuth": {
+    "propertiesRegistered": "properties registered in this area",
+    "propertiesTable": {
+      "address": "Address",
+      "type": "Type",
+      "viewLink": "View",
+      "viewAll": "View all registered properties"
     }
   }
 }
