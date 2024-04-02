@@ -32,5 +32,23 @@
       "placeholder": "Search accommodation",
       "button": "Search"
     }
+  },
+  "localAuthList": {
+    "title": "Local authorities",
+    "localAuthTable": {
+      "name": "Name",
+      "properties": "Properties",
+      "levy": "Visitor levy",
+      "link": "View"
+    }
+  },
+  "localAuth": {
+    "propertiesRegistered": "properties registered in this area",
+    "propertiesTable": {
+      "address": "Address",
+      "type": "Type",
+      "viewLink": "View",
+      "viewAll": "View all registered properties"
+    }
   }
 }
